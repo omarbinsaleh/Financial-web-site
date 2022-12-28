@@ -55,7 +55,7 @@ button {
     border: transparent;
 }
 
-button:hover {
+.button:hover {
     background-color: #02840f;
     cursor: pointer;
 }
@@ -124,3 +124,42 @@ button:hover {
     font-size: 14px;
     color: white;
 }
+
+
+/* Styling for the Middle Section of the Website */
+#middle-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    border: 1px solid #9D9D9D;
+
+}
+
+.card-header {
+    display: flex;
+    width: auto;
+    height: 15%;
+    border: 1px solid #9D9D9D;
+    background-color: #D1D1D1;
+}
+
+.card {
+    display: flex;
+    width: auto;
+    height: 15%;
+    border: 1px solid #9D9D9D;
+    background-color: #D1D1D1;
+}
+
+
+/* Styling for the Right Section of the Website */
+#right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    height: auto;
+    border: solid green;
+}
+
