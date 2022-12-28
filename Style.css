@@ -138,10 +138,39 @@ button {
 
 .card-header {
     display: flex;
+    flex-direction: row;
+    padding: 15px;
+    padding-left: 30px;
+    align-items: center;
     width: auto;
-    height: 15%;
+    height: 10%;
     border: 1px solid #9D9D9D;
     background-color: #D1D1D1;
+}
+
+.card-list {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.P-filter-add {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+}
+
+.filter-add {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 40px;
 }
 
 .card {
