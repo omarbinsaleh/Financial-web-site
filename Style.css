@@ -315,23 +315,28 @@ button {
 /* creating hover effect over the card */
 .card:hover {
     background-color: #03351C;
+    cursor: pointer;
 }
 .card:hover .card-title {
     color: white;
+    cursor: pointer;
 }
 .card:hover .bullet-point {
     background-color: white;
+    cursor: pointer;
 }
 .card:hover .status {
     color: white;
+    cursor: pointer;
 }
 .card:hover .issued-access {
     color: white;
+    cursor: pointer;
 }
-
 .card:hover .access {
     background-color: #D1D1D1;
     color: #03351C;
+    cursor: pointer;
 }
 
 
